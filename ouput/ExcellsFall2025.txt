@@ -1,0 +1,8 @@
+Fall,2025,7
+STAT 51100,3,A
+Visual Programming with C#,3,A
+Web App Development,3,B
+Project Mangement,3,A
+Analysis Of Algorithms,3,A
+Computer Security,3,B
+Operating Systems,3,A

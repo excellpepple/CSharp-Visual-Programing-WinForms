@@ -1,0 +1,4 @@
+hskhs,2025,3
+gas,4,F
+asd,4,B
+fgt,4,F
