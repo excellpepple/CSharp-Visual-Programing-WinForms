@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F716D5EF-1D36-41FD-8094-D4BA9149DFF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExcellPeppleProject5</RootNamespace>
+    <AssemblyName>ExcellPeppleProject5</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutPage.Designer.cs">
+      <DependentUpon>AboutPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStartUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStartUp.Designer.cs">
+      <DependentUpon>frmStartUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GamesPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamesPage.Designer.cs">
+      <DependentUpon>GamesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesPage.Designer.cs">
+      <DependentUpon>MoviesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusicPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusicPage.Designer.cs">
+      <DependentUpon>MusicPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutPage.resx">
+      <DependentUpon>AboutPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStartUp.resx">
+      <DependentUpon>frmStartUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamesPage.resx">
+      <DependentUpon>GamesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesPage.resx">
+      <DependentUpon>MoviesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusicPage.resx">
+      <DependentUpon>MusicPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageFFF.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poison.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbml.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jovi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\motley.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poison.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sega.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bttf.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
