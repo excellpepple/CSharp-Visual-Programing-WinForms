@@ -1,0 +1,35 @@
+Life is strange
+23
+C:\Users\excel\Desktop\Classes\Into To Visual Programming\Projects\ExcellPeppleProject6\Output\Images\620085d7-5689-4971-8d83-43602dee4d2d.jpg
+123
+2
+Comedy
+Video
+Convergence Point
+2012
+C:\Users\excel\Desktop\Classes\Into To Visual Programming\Projects\ExcellPeppleProject6\Output\Images\4f215074-b284-4467-ba00-f7f71dd4759b.png
+123
+4
+Comedy, Drama
+Audio
+Back to the future
+2012
+C:\Users\excel\Desktop\Classes\Into To Visual Programming\Projects\ExcellPeppleProject6\Output\Images\dd5a3859-b052-4030-a36c-e5f7459b14b6.jpg
+123
+4
+Comedy, Drama
+Audio
+Indiana Jones
+2010
+C:\Users\excel\Desktop\Classes\Into To Visual Programming\Projects\ExcellPeppleProject6\Output\Images\9180cfae-c51d-4919-8e6d-3c3642615623.jpg
+123343
+3
+Action, Comedy, Drama
+Video
+Motley
+1989
+C:\Users\excel\Desktop\Classes\Into To Visual Programming\Projects\ExcellPeppleProject6\Output\Images\f80c1502-dd2c-4930-9aea-d34011716eb8.jpg
+20
+2
+Comedy
+Video
